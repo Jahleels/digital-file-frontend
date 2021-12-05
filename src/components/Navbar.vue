@@ -7,7 +7,7 @@
       <router-link to="/" class="navbar-brand">
         <img src="" />
       </router-link>
-      <router-link class="navbar-brand mb-0 h1" to="/"
+      <router-link class="navbar-brand mb-0 " to="/"
         >Digital File</router-link
       >
       <button
@@ -41,7 +41,9 @@ export default {
 <style>
 .navbar-brand {
     font-family: 'BoutiqueScript';
-    font-size: 3rem;
-    margin-right: 2rem;
+    font-size: 3rem !important;
+    margin-right: 2rem !important;
 }
+
+
 </style>
