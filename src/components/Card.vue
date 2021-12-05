@@ -23,6 +23,6 @@ export default {
 
 <style>
 .card {
-    margin:1rem 2rem 0 2rem;
+  margin: 1rem 2rem 0 2rem;
 }
 </style>

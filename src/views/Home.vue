@@ -11,9 +11,9 @@
 <script>
 import Banner from "@/components/Banner.vue";
 import Navbar from "@/components/Navbar.vue";
-import About from '@/components/About.vue';
-import Us from '../components/Us.vue';
-import Info from '../components/Info.vue';
+import About from "@/components/About.vue";
+import Us from "../components/Us.vue";
+import Info from "../components/Info.vue";
 
 export default {
   name: "Home",
@@ -22,7 +22,7 @@ export default {
     Banner,
     About,
     Us,
-    Info
+    Info,
   },
 };
 </script>

@@ -6,8 +6,7 @@
 
 <style>
 @font-face {
-    font-family: BoutiqueScript;
-    src: url("./font/BoutiqueScript.ttf");
+  font-family: BoutiqueScript;
+  src: url("./font/BoutiqueScript.ttf");
 }
-
 </style>
