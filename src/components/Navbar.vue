@@ -4,9 +4,7 @@
     style="background-color: #141414"
   >
     <div class="container-fluid">
-      <router-link to="/" class="navbar-brand">
-        <img src="" />
-      </router-link>
+      
       <router-link class="navbar-brand mb-0 " to="/"
         >Digital File</router-link
       >
@@ -23,9 +21,9 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <router-link class="nav-link" to="/">De que trata</router-link>
-          <router-link class="nav-link" to="/">Quienes somos</router-link>
-          <router-link class="nav-link" to="/">Más información</router-link>
+          <a class="nav-link" href="#">De que trata</a>
+          <a class="nav-link" href="#">Quienes somos</a>
+          <a class="nav-link" href="#">Más información</a>
         </div>
       </div>
     </div>
@@ -43,6 +41,7 @@ export default {
     font-family: 'BoutiqueScript';
     font-size: 3rem !important;
     margin-right: 2rem !important;
+    margin-left: 2rem !important;
 }
 
 

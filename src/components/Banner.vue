@@ -34,5 +34,6 @@ header {
     background-color: rgba(227, 227, 227, .8);
     padding: 16px;
     width: 35rem;
+    border-radius: 4px;
 }
 </style>

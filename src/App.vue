@@ -9,6 +9,5 @@
     font-family: BoutiqueScript;
     src: url("./font/BoutiqueScript.ttf");
 }
-#app {
-}
+
 </style>
