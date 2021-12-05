@@ -1,9 +1,10 @@
-# digital-file
-
-## Project setup
+# No olvidar correr ->
 ```
 npm install
 ```
+
+# digital-file
+
 
 ### Compiles and hot-reloads for development
 ```
