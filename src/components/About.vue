@@ -2,12 +2,8 @@
   <section class="aboutContainer">
     <div class="container">
       <h2 class="container__titulo">¿De qué trata?</h2>
-    <b-button v-b-modal.modal-1>Launch demo modal</b-button>
     </div>
-
-  <b-modal id="modal-1" title="BootstrapVue">
-    <p class="my-4">Hello from modal!</p>
-  </b-modal>
+    
   </section>
 </template>
 
