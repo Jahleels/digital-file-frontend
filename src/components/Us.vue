@@ -1,12 +1,13 @@
 <template>
-  <section class="UsContainer">
+  <section class="UsContainer" id="us">
     <div class="container">
       <h2 class="UsContainer__titulo">Nuestro Equipo</h2>
       <div class="card-group">
-        <card />
-        <card />
-        <card />
-        <card />
+        <card Nombre="Jahleel Solano" Perfil="Diseñador UX/UI, DIseador industrial y Desarrollador Frontend" Frase="Cada error te hace más fuerte"/>
+        <card Nombre="David Pedraza" Perfil="Desarrollador Backend" Frase="frase"/>
+        <card Nombre="Gabriela León" Perfil="Desarrolladora" Frase="frase"/>
+        <card Nombre="Juan Gahona" Perfil="Desarrollador" Frase="frase"/>
+        
       </div>
     </div>
   </section>
@@ -17,6 +18,7 @@ import Card from "./Card.vue";
 export default {
   components: { Card },
   name: "Us",
+  
 };
 </script>
 
