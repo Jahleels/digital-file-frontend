@@ -3,16 +3,9 @@
     <div class="container">
       <div>
         <div class="contenedorPrincipal">
-          <h1>Haz un espacio a tu medida!</h1>
+          <h1>¡Haz un espacio a tu medida!</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Necessitatibus molestiae obcaecati sit. Inventore dolores expedita
-            sit tempora velit distinctio corrupti. Cupiditate commodi tempora
-            ipsa vitae laudantium suscipit repudiandae mollitia fuga. Inventore
-            ab sequi ipsum perferendis nemo quaerat recusandae amet delectus
-            totam minima culpa quibusdam laudantium, commodi illo vel. Vitae
-            molestiae autem consequuntur illum. Molestiae, distinctio maxime.
-            Rem quod culpa incidunt?
+            Digital File fue creado para personas quienes quieren (y ahora pueden) organizar sus archivos de forma sencilla, !y muy fácil! La tecnología ofrece formas muy intuitivas de resolver los problemas y este software te ayudará a tener tu espacio limpio y ordenado a tu gusto.
           </p>
           <!--Botón-->
         </div>
