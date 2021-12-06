@@ -10,23 +10,10 @@
     >
 
     <!-- Modal -->
-    <b-modal id="modal-1" title="Subir archivo">
+    <b-modal id="modal-1" title="Subir archivo" hide-footer>
 
-
-      <form @submit.prevent="guardar" enctype="multipart/form-data">
-        <!-- Input archivo -->
-        <div class="input-group mb-3">
-          <input type="file" ref="file" @change="selectFile" class="form-control" />
-          <button @submit.prevent="guardar" type="submit">Enviar</button>
-
-        </div>
-
-        </form>
-
-        <label class="form-label mb-2"
-          >Escoge un nombre de la categoría y un color (opcional)</label
-        >
-        <div class="d-flex justify-content mb-3">
+          <label class="form-label mb-2">Escoge un nombre de la categoría y un color (opcional)</label>
+      <div class="d-flex justify-content mb-3">
           <!-- Input color -->
           <input
             type="color"
@@ -41,6 +28,17 @@
             placeholder="Categoría"
           />
         </div>
+      <form @submit.prevent="guardar" enctype="multipart/form-data">
+        <!-- Input archivo -->
+        <div class="input-group mb-3">
+          <input type="file" ref="file" @change="selectFile" class="form-control" />
+
+        </div>
+          <button class="btn btn-primary" @submit.prevent="guardar" type="submit">Enviar</button>
+
+        </form>
+
+        
 
 
       
