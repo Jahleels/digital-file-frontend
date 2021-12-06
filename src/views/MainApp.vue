@@ -13,6 +13,8 @@
       <form @submit.prevent="guardar" enctype="multipart/form-data">
         <div class="input-group mb-3">
           <input type="file" ref="file" @change="selectFile" class="form-control" />
+          <button @submit.prevent="guardar" type="submit">Enviar</button>
+
         </div>
         </form>
         <label for="exampleColorInput" class="form-label mb-2"
@@ -31,12 +33,13 @@
             placeholder="Categoría"
           />
         </div>
-      <template v-slot:modal-footer="{ guardar, cancel }">
-        <b-button @click="guardar" variant="primary">Enviar</b-button>
-        <b-button @click="cancel()" variant="light">Cancelar</b-button>
-      </template>
+      <!-- <template v-slot:modal-footer="{ guardar, cancel }"> -->
+        <!-- <button @submit.prevent="guardar" variant="primary">Enviar</button>
+        <b-button @click="cancel()" variant="light">Cancelar</b-button> -->
+      <!-- </template> -->
       
     </b-modal>
+
   </div>
 </template>
 
@@ -71,8 +74,8 @@ export default {
     //   }
     // },
 
-    guardar: function (e) {
-      console.log("Send");
+    guardar:function (e) {
+      console.log("Enviado a la base de datos remota");
       let obj = new FormData();
       obj.append("archivo", this.file);
       this.archivoMongo
