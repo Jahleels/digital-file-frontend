@@ -12,7 +12,9 @@
           <a class="nav-link" href="#">Quienes somos</a>
           <a class="nav-link" href="#">Más información</a>
         </div>
-        <button class="btn btn-outline-danger ms-4">¡Probarlo Ya!</button>
+        <!-- <button to="/about" class="btn btn-outline-danger ms-4">¡Probarlo Ya!</button> -->
+        <router-link to="/about" class="flm">¡Probarlo Ya!</router-link>
+
       </div>
     </div>
   </nav>
