@@ -29,7 +29,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 header {
   background-image: url("../assets/background-banner.jpg");
   background-position: center;
