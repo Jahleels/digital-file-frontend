@@ -13,7 +13,7 @@
           <a class="nav-link" href="#">Más información</a>
         </div>
         <!-- <button to="/about" class="btn btn-outline-danger ms-4">¡Probarlo Ya!</button> -->
-        <router-link to="/about" class="flm">¡Probarlo Ya!</router-link>
+        <router-link to="/about" class="flm btn btn-outline-danger ms-4">¡Probarlo Ya!</router-link>
 
       </div>
     </div>
